@@ -1,0 +1,10 @@
+﻿source,feature,bin,baseline,metric,mean,CI95,mothers
+attribution/brightness_bins.csv,zero_fraction,2,LB_tuned,NLL,1.97986786e-06,"[-1.3186260909626343e-05, 1.7161319153466225e-05]",30
+attribution/brightness_bins.csv,zero_fraction,2,F_qPG,NLL,7.96861912e-06,"[-3.912746072851266e-06, 1.995491438754621e-05]",30
+attribution/dev_spatial_regions.csv,signal_DN,0,N0_permuted,NLL,0.00134317888,"[-0.002300655088306859, 0.006183428200355043]",28
+attribution/dev_spatial_regions.csv,signal_DN,2,Local_PG,NLL,-0.00195136287,"[-0.0040342968719343794, 0.00021552855583189027]",20
+attribution/dev_spatial_regions.csv,gradient_logsignal,0,Local_PG,NLL,4.2724892e-06,"[-0.0014800807154784852, 0.0016992596440835762]",32
+attribution/dev_spatial_regions.csv,gradient_logsignal,1,Local_PG,NLL,0.000109882848,"[-0.0009156953888612497, 0.001208066918014732]",32
+attribution/dev_spatial_regions.csv,gradient_logsignal,2,Local_PG,NLL,-0.000803126648,"[-0.0020314018108044066, 0.00031465993719179505]",32
+attribution/dev_spatial_regions.csv,zero_component_size,2,Local_PG,NLL,-0.0005949652,"[-0.002003781652013802, 0.0005809676346035393]",30
+attribution/dev_spatial_regions.csv,zero_component_size,2,N0_permuted,NLL,-0.00052647426,"[-0.003838427125581938, 0.003065890615763051]",30

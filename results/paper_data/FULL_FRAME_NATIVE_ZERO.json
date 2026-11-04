@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "all active pixels of two existing real exposures; native zero only",
+  "source_split": "two observed real exposures",
+  "experiment_registered_before_readout": false,
+  "source_file_sha": {
+    "P2654748.RW2": "4ba876d78e4a02111573e0e6d2605cfc2c493f171a91e850fd46d23646f3623b",
+    "P2654749.RW2": "d136117d72b15df46f883b3e4309d1e4c79ef0f86a096b2412b0ebf00203974c",
+    "P2654750.RW2": "ba7be0cccacf424c0b15da866a30afa632576c026d533b625c38b0948e1db89c",
+    "P2654751.RW2": "1a30242397ea2b711088291e30f0e00d585b3e087d827eaccb2d6b729ab5d874",
+    "P2654752.RW2": "0dba915a44ed9294d36d5e9d527ba957e38afea3521a6afd50d8aa31d7813819",
+    "P2654753.RW2": "0c0a6e06ef7be80da07c25c420be34882a96e1955ce14a7658d391c19a1d1f42",
+    "P2654754.RW2": "7250aadbb93aa6ece83f525a5c4bcbfda5e5562abb2c72a813428be4e80b61a9",
+    "P2654755.RW2": "2064b2aec48cfc29bacf3d98c91dc0d4f1a7444808690ebabd67cd456e4fffce",
+    "P2654756.RW2": "e8308edceb7fa0378f6a3a5726d1e6eb42d7ed466f5d5fef2694f94dd41290e1",
+    "P2654757.RW2": "3b9f74acea8c57d80f47488ad04d05ad64be22c39caf045fc8e3f74b7e7ee2ca",
+    "P2654758.RW2": "b69c884d08b748569fff3fe711d63f23d7028d08ea8dbdb2efcb47e061312372",
+    "P2654759.RW2": "c7b726613e57beee8631019de96293c88b69cf6810f875c4298b61cc3fb3a8d5"
+  },
+  "method_id": "fullframe_native_zero_crosscheck",
+  "metric_definition": "native code zero; same active coordinate repeated in both",
+  "bootstrap_unit": null,
+  "seed": null,
+  "rows": 43,
+  "by_frame": {
+    "P2654748": 18,
+    "P2654749": 25
+  },
+  "by_CFA": {
+    "R": 1,
+    "G1": 26,
+    "G2": 16,
+    "B": 0
+  },
+  "repeated_both": 0,
+  "limitations": [
+    "No determination of sensor/decoder code validity or cause.",
+    "Not the same candidate set as primary real score.",
+    "Dark frames used for prior calibration."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "source_split": "development",
+  "evidence_class": "development_posthoc",
+  "n_sources": 32,
+  "context_packed": 128,
+  "core_packed": 64,
+  "per_CFA_candidate_cap": 64,
+  "CFA": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "Local_window": 5,
+  "source_ids": [
+    "bsds_170054",
+    "bsds_22093",
+    "bsds_159091",
+    "bsds_67079",
+    "bsds_61086",
+    "bsds_15004",
+    "bsds_286092",
+    "bsds_176035",
+    "bsds_66075",
+    "bsds_172032",
+    "bsds_164074",
+    "bsds_181091",
+    "bsds_187083",
+    "bsds_87065",
+    "bsds_376020",
+    "bsds_22090",
+    "bsds_299091",
+    "bsds_140075",
+    "bsds_231015",
+    "bsds_198004",
+    "bsds_35091",
+    "bsds_351093",
+    "bsds_236037",
+    "bsds_38082",
+    "bsds_304074",
+    "bsds_160068",
+    "bsds_43074",
+    "bsds_86016",
+    "bsds_130026",
+    "bsds_253027",
+    "bsds_376043",
+    "bsds_285079"
+  ],
+  "original_source_shas": {
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\00\\scene_arrays.npz": "8a0265f79cd697e7dac9125a1ff52e9d5c7a959d37b72a8bdb7003ce2158a7a3",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\01\\scene_arrays.npz": "45da706097e49e6d36e64189cf0f78531d197aff2313889f562ae9af7bf18479",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\02\\scene_arrays.npz": "8935874157316cf366504ce69ac5683e339725e7a2c31a0dd633974ca627eced",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\03\\scene_arrays.npz": "68ac256f360b1f14bf2508603008e4076bd0d5b74f70bcb3165f9513e1ce9b50",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\04\\scene_arrays.npz": "eee52bcbc23daa260947b0c5962eda81b167c0920eab9a088057c80998a519c9",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\05\\scene_arrays.npz": "e483dd25cd7d8b6c5e17f30169be9300f115b9ed5c285998c8ae21e5d274189f",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\06\\scene_arrays.npz": "63d777702956b1cf30f41ec35f318aa70fa14a1171e54b2623d6c2a8c0924e22",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\07\\scene_arrays.npz": "72376d6d5b5e53f6ffa88c9c61ce7a050ff7e3a95ee180de5a8e358e4393a411",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\08\\scene_arrays.npz": "b15cf14a8149a12f2eed66d886a96b3f48fc881c77599349554e1833d8f91a07",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\09\\scene_arrays.npz": "6475598fe4725d86a9001fd49384efd8df41f95d0fc5528ca7ba7faf80fc09cd",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\10\\scene_arrays.npz": "46f205bd9abf0d15a5f56fcf70f071f45cc99bd65d4ef15292026e0b41127dff",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\11\\scene_arrays.npz": "a4ec9572a3189dfd14538a9c11d99d2e4469b2f19e0f5b2d13eb4785e55eda78",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\12\\scene_arrays.npz": "bf34331d0eadb4382a3ec2ba0f9a3d2951e5ae79d2c7860edb77df81ba170921",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\13\\scene_arrays.npz": "bacd2a5b831e7223ff27da0c4fb778466aed511bf977eefb21257ae18f66024e",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\14\\scene_arrays.npz": "afddf7984b3b7c56c64fe69ff47de25a507cab1daf033a47b2026bfa111e4fdc",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\15\\scene_arrays.npz": "917f1692e23198858a9245c91fc0565d6eadf08dd8b8e32b58fb4ac8561be0c1",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\16\\scene_arrays.npz": "041afdc9cd3d67b42fbaf1bd70082dcae085587f4f18e21aff787c87ce3ca72d",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\17\\scene_arrays.npz": "9c24e4c4a694666f00a083e9cca1a588c008d2f07f6895477d1cf7a200827cd0",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\18\\scene_arrays.npz": "6c831ac2f6d79e0caa0131a634e56edfa6b0a731020e7ba48cd23b8c690bcd72",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\19\\scene_arrays.npz": "e7c16f869ace2996f8e45b549a42e4874f030cfdd97066a68931ba085dc7c715",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\20\\scene_arrays.npz": "a14273bfce46097d5dfcda920727474ba1800b021465baf7be370442f2c3fdae",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\21\\scene_arrays.npz": "99bb5d1bfab80eb85492758a4dd5a235ca5c07e4345299f2f1f192d8e4873aed",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\22\\scene_arrays.npz": "da9c70f7f51da6663480466632e75be3d16733efae130a687963e2b744e1c669",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\23\\scene_arrays.npz": "193db9d897f9592194a9fb27beb3d9c70e21b50dd7a731136cb8abec372691b1",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\24\\scene_arrays.npz": "8fb8292a645c2e2a4fac353a8d60b02df8a544e68d2c48d36239895a6b578a0a",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\25\\scene_arrays.npz": "782f548ba54deae38e80812d840286dee27d663509be77b77f206ef97f303377",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\26\\scene_arrays.npz": "b8f30b1dcf7922bb56b9fcbdb6d7ee4db8ba0578deafd530bc066d5a00ab9c95",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\27\\scene_arrays.npz": "8aa07bee72543203e5f2a919d0557c734321fbc16d44abfbd5f50c71f6c56cdf",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\28\\scene_arrays.npz": "120795232897c82c797a64c83de2cf52310800b73dfd90b5218da5ee35ac0100",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\29\\scene_arrays.npz": "4b006a5fbbfb8808f7dd4d05bbb536fc24a44a63f76fbd163f1200a65057bcc5",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\30\\scene_arrays.npz": "3f4e20dccd1c60e87427a639ed559515cdffdf0e6e5a914ab708a394b74ebb02",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\31\\scene_arrays.npz": "bc360761ca056b2974b3489ebfd3b797263a375fe9808595e3da220a1e18360c"
+  },
+  "case_seeds": {
+    "base_PG_and_row_col": [
+      20261027,
+      500,
+      "source_index"
+    ],
+    "candidate_selection": [
+      20261028,
+      771,
+      "source_index",
+      "condition_index"
+    ]
+  },
+  "true_physics": {
+    "g": 21.601092412099675,
+    "sigma": 24.95960511926749,
+    "offset": "stored per-CFA b",
+    "black": 512,
+    "K": 304
+  },
+  "conditions": [
+    "matched_PG",
+    "sigma_x0.9",
+    "sigma_x1.1",
+    "row_column_5DN"
+  ],
+  "inference_physics": {
+    "sigma_shift": [
+      "known_new_profile",
+      "fixed_old_profile"
+    ],
+    "row_column": "fixed_nominal_profile; row/column offsets not supplied"
+  },
+  "method_input_permissions": {
+    "N0": "four CFA context",
+    "Local_PG": "same CFA 5x5"
+  },
+  "aggregation": "CFA mean then source equal mean",
+  "bootstrap_unit": "source_image",
+  "bootstrap_resamples": 10000,
+  "checkpoint_sha": "662eef3e581eb77d1e948ee800d6e63c0ab0039c3b4cff8f9fafe8a99074894f",
+  "PTC_sha": "7ccb2874c7ccd80e6d285c369e2475267ce5a314f59aa9e971cebbbf3f354ebc",
+  "scorer_sha": "abdf09c05adc40350672ebadab9391cdbaa151c17d352aa482df52bbdbf90027",
+  "no_test_access": true,
+  "no_training": true,
+  "old_stress_sample_parity": "New candidate subsamples; base PG/row seeds reused. Do not demand exact equality with earlier N0-only scores."
+}

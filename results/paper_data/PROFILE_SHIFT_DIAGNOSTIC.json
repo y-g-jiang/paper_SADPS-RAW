@@ -1,0 +1,205 @@
+{
+  "status": "N0_ONLY_DEV_EXPLORATORY_COMPLETE",
+  "source_split": "first 4 previously selected dev mothers; fresh synthetic noise",
+  "experiment_registered_before_readout": false,
+  "source_file_sha": {
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\00\\scene_arrays.npz": "8a0265f79cd697e7dac9125a1ff52e9d5c7a959d37b72a8bdb7003ce2158a7a3",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\01\\scene_arrays.npz": "45da706097e49e6d36e64189cf0f78531d197aff2313889f562ae9af7bf18479",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\02\\scene_arrays.npz": "8935874157316cf366504ce69ac5683e339725e7a2c31a0dd633974ca627eced",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\03\\scene_arrays.npz": "68ac256f360b1f14bf2508603008e4076bd0d5b74f70bcb3165f9513e1ce9b50"
+  },
+  "checkpoint_sha": "662eef3e581eb77d1e948ee800d6e63c0ab0039c3b4cff8f9fafe8a99074894f",
+  "method_id": "N0 frozen PG exact decoder",
+  "metric_definition": "per CFA -> per source -> equal 4-source mean; common observation within each profile for both arms; coarsened KL and exact observed code NLL/CRPS where V>=-304",
+  "bootstrap_unit": "source",
+  "seed": 20261027,
+  "conditions": [
+    {
+      "gain_factor": 0.95,
+      "sigma_factor": 0.9,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.0003658036328281357,
+      "NLL": 3.8219417103000564,
+      "CRPS": 7.4146048365829795
+    },
+    {
+      "gain_factor": 0.95,
+      "sigma_factor": 0.9,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.010579986648335246,
+      "NLL": 3.832905445601853,
+      "CRPS": 7.506117777138174
+    },
+    {
+      "gain_factor": 0.95,
+      "sigma_factor": 1.0,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.0003067428932644631,
+      "NLL": 3.942422591570292,
+      "CRPS": 8.374245148154577
+    },
+    {
+      "gain_factor": 0.95,
+      "sigma_factor": 1.0,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.00022144170110171456,
+      "NLL": 3.942352294513539,
+      "CRPS": 8.37269179970503
+    },
+    {
+      "gain_factor": 0.95,
+      "sigma_factor": 1.1,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.00038421624066031784,
+      "NLL": 4.006791017750595,
+      "CRPS": 8.864875955761462
+    },
+    {
+      "gain_factor": 0.95,
+      "sigma_factor": 1.1,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.009910317545739983,
+      "NLL": 4.01389260783994,
+      "CRPS": 8.927914943259788
+    },
+    {
+      "gain_factor": 1.0,
+      "sigma_factor": 0.9,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.00023800002872558187,
+      "NLL": 3.850946195672474,
+      "CRPS": 7.463939051590539
+    },
+    {
+      "gain_factor": 1.0,
+      "sigma_factor": 0.9,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.010319497288366793,
+      "NLL": 3.856237343595711,
+      "CRPS": 7.49564629452713
+    },
+    {
+      "gain_factor": 1.0,
+      "sigma_factor": 1.0,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.0002442354611741773,
+      "NLL": 3.9182890226379254,
+      "CRPS": 8.090708598601466
+    },
+    {
+      "gain_factor": 1.0,
+      "sigma_factor": 1.0,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.0002442354611741773,
+      "NLL": 3.9182890226379254,
+      "CRPS": 8.090708598601466
+    },
+    {
+      "gain_factor": 1.0,
+      "sigma_factor": 1.1,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.0002612873765995331,
+      "NLL": 4.034765988388486,
+      "CRPS": 8.994645530313996
+    },
+    {
+      "gain_factor": 1.0,
+      "sigma_factor": 1.1,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.010231894975580923,
+      "NLL": 4.046529299545669,
+      "CRPS": 9.083710448836063
+    },
+    {
+      "gain_factor": 1.05,
+      "sigma_factor": 0.9,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.00021164721777899712,
+      "NLL": 3.8049966978314456,
+      "CRPS": 7.278089927636973
+    },
+    {
+      "gain_factor": 1.05,
+      "sigma_factor": 0.9,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.01031161640505288,
+      "NLL": 3.8187690462587978,
+      "CRPS": 7.370641359957675
+    },
+    {
+      "gain_factor": 1.05,
+      "sigma_factor": 1.0,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.0002382419283716032,
+      "NLL": 3.9123598777753887,
+      "CRPS": 7.824159892321261
+    },
+    {
+      "gain_factor": 1.05,
+      "sigma_factor": 1.0,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.00021007583468123103,
+      "NLL": 3.912754974031906,
+      "CRPS": 7.827225063554142
+    },
+    {
+      "gain_factor": 1.05,
+      "sigma_factor": 1.1,
+      "inference": "profile_known",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.00031771618031334456,
+      "NLL": 4.035598557168073,
+      "CRPS": 9.169915559364558
+    },
+    {
+      "gain_factor": 1.05,
+      "sigma_factor": 1.1,
+      "inference": "old_calibration",
+      "source_count": 4,
+      "candidate_count": 1024,
+      "KL": 0.010041552437875786,
+      "NLL": 4.047879715753269,
+      "CRPS": 9.26708649711678
+    }
+  ],
+  "limitations": [
+    "Four development sources, no CI; not independent confirmatory test.",
+    "No Local PG or other baselines in this probe.",
+    "No non-Gaussian contamination or row-column stress.",
+    "Candidate set changes across generated profiles.",
+    "Known-profile supplies new constants to network trained under fixed constants; tests OOD behavior."
+  ]
+}

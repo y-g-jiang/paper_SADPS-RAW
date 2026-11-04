@@ -1,0 +1,576 @@
+{
+  "status": "COMPLETE",
+  "time": "2026-10-27T11:03:59+0800",
+  "per_frame": [
+    {
+      "frame": "P2654748.RW2",
+      "method": "F_qPG",
+      "n": 12652,
+      "NLL": 3.9795162919904516,
+      "CRPS": 8.283579855706698,
+      "mean_MSE": 341.0453802846422,
+      "coverage90": 0.9261776794182738
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PG",
+      "n": 12652,
+      "NLL": 3.9796310160407646,
+      "CRPS": 8.283445844642463,
+      "mean_MSE": 340.3551478716562,
+      "coverage90": 0.9242807461270945
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PMF",
+      "n": 12652,
+      "NLL": 3.9802764164607773,
+      "CRPS": 8.289612194760988,
+      "mean_MSE": 340.5461623475679,
+      "coverage90": 0.9242807461270945
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "LB3",
+      "n": 12652,
+      "NLL": 3.9784752160625487,
+      "CRPS": 8.273925880756243,
+      "mean_MSE": 340.8438881270464,
+      "coverage90": 0.9269680682895984
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Local_PG",
+      "n": 12652,
+      "NLL": 3.975845767805225,
+      "CRPS": 8.248081145600818,
+      "mean_MSE": 339.991915972445,
+      "coverage90": 0.9252292127726841
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "N0_PG",
+      "n": 12652,
+      "NLL": 3.97450334997296,
+      "CRPS": 8.237064064196865,
+      "mean_MSE": 339.607753124248,
+      "coverage90": 0.9250711349984192
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "F_qPG",
+      "n": 19200,
+      "NLL": 4.0060410765132675,
+      "CRPS": 8.35087999607916,
+      "mean_MSE": 366.74765935201367,
+      "coverage90": 0.93046875
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PG",
+      "n": 19200,
+      "NLL": 4.0049662729160245,
+      "CRPS": 8.341611762746203,
+      "mean_MSE": 365.1484684096145,
+      "coverage90": 0.9279166666666666
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PMF",
+      "n": 19200,
+      "NLL": 4.005567506068755,
+      "CRPS": 8.347403892588645,
+      "mean_MSE": 365.30403738593174,
+      "coverage90": 0.9279166666666666
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "LB3",
+      "n": 19200,
+      "NLL": 4.006270335560471,
+      "CRPS": 8.35231616085535,
+      "mean_MSE": 367.04387542039444,
+      "coverage90": 0.9307291666666667
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Local_PG",
+      "n": 19200,
+      "NLL": 4.00417633112831,
+      "CRPS": 8.331819590742741,
+      "mean_MSE": 366.58852165958774,
+      "coverage90": 0.929375
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "N0_PG",
+      "n": 19200,
+      "NLL": 4.003212768868427,
+      "CRPS": 8.322619471955727,
+      "mean_MSE": 366.23373567254856,
+      "coverage90": 0.93046875
+    }
+  ],
+  "per_CFA": [
+    {
+      "frame": "P2654748.RW2",
+      "method": "F_qPG",
+      "CFA": 0,
+      "n": 4399,
+      "NLL": 4.0272102204202165,
+      "CRPS": 8.599412716187356,
+      "mean_MSE": 382.1180263406495,
+      "coverage90": 0.9218004091839054
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "F_qPG",
+      "CFA": 1,
+      "n": 4120,
+      "NLL": 3.9314219561044768,
+      "CRPS": 7.983920455959155,
+      "mean_MSE": 298.475342966417,
+      "coverage90": 0.9310679611650485
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "F_qPG",
+      "CFA": 2,
+      "n": 4133,
+      "NLL": 3.9766958401849073,
+      "CRPS": 8.24613682974625,
+      "mean_MSE": 339.7654344222448,
+      "coverage90": 0.9259617711105734
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PG",
+      "CFA": 0,
+      "n": 4399,
+      "NLL": 4.028010829312275,
+      "CRPS": 8.61079502401588,
+      "mean_MSE": 381.577714607282,
+      "coverage90": 0.9202091384405546
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PG",
+      "CFA": 1,
+      "n": 4120,
+      "NLL": 3.930560994318823,
+      "CRPS": 7.971431382009202,
+      "mean_MSE": 297.6319033052084,
+      "coverage90": 0.9283980582524272
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PG",
+      "CFA": 2,
+      "n": 4133,
+      "NLL": 3.9770531527242943,
+      "CRPS": 8.24606151025712,
+      "mean_MSE": 339.06835777820027,
+      "coverage90": 0.9245100411323494
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PMF",
+      "CFA": 0,
+      "n": 4399,
+      "NLL": 4.028459959667061,
+      "CRPS": 8.615246777809567,
+      "mean_MSE": 381.6807532212939,
+      "coverage90": 0.9202091384405546
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PMF",
+      "CFA": 1,
+      "n": 4120,
+      "NLL": 3.9313862983927472,
+      "CRPS": 7.979229270280516,
+      "mean_MSE": 297.9160006388759,
+      "coverage90": 0.9283980582524272
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Global_PMF",
+      "CFA": 2,
+      "n": 4133,
+      "NLL": 3.97772811737436,
+      "CRPS": 8.252426401881442,
+      "mean_MSE": 339.26022017149484,
+      "coverage90": 0.9245100411323494
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "LB3",
+      "CFA": 0,
+      "n": 4399,
+      "NLL": 4.026552853831282,
+      "CRPS": 8.594616231702307,
+      "mean_MSE": 382.1184940396721,
+      "coverage90": 0.921345760400091
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "LB3",
+      "CFA": 1,
+      "n": 4120,
+      "NLL": 3.9296541824401543,
+      "CRPS": 7.968388220071378,
+      "mean_MSE": 297.89679200160447,
+      "coverage90": 0.9320388349514563
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "LB3",
+      "CFA": 2,
+      "n": 4133,
+      "NLL": 3.9759707713443326,
+      "CRPS": 8.237172507470468,
+      "mean_MSE": 339.72485706660143,
+      "coverage90": 0.9278974110815388
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Local_PG",
+      "CFA": 0,
+      "n": 4399,
+      "NLL": 4.023550576555575,
+      "CRPS": 8.566011416213941,
+      "mean_MSE": 381.35410132775223,
+      "coverage90": 0.9197544896567401
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Local_PG",
+      "CFA": 1,
+      "n": 4120,
+      "NLL": 3.927130569540774,
+      "CRPS": 7.943536394858143,
+      "mean_MSE": 297.02207646481355,
+      "coverage90": 0.929368932038835
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "Local_PG",
+      "CFA": 2,
+      "n": 4133,
+      "NLL": 3.9736326449300114,
+      "CRPS": 8.21327570466994,
+      "mean_MSE": 338.8023406986596,
+      "coverage90": 0.9269295910960561
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "N0_PG",
+      "CFA": 0,
+      "n": 4399,
+      "NLL": 4.021464227729966,
+      "CRPS": 8.547898720999305,
+      "mean_MSE": 380.5754204698917,
+      "coverage90": 0.9188451920891112
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "N0_PG",
+      "CFA": 1,
+      "n": 4120,
+      "NLL": 3.9263695172431636,
+      "CRPS": 7.936753573301767,
+      "mean_MSE": 296.8507813233511,
+      "coverage90": 0.9298543689320389
+    },
+    {
+      "frame": "P2654748.RW2",
+      "method": "N0_PG",
+      "CFA": 2,
+      "n": 4133,
+      "NLL": 3.9725025006126145,
+      "CRPS": 8.205589969644208,
+      "mean_MSE": 338.62588890121594,
+      "coverage90": 0.9269295910960561
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "F_qPG",
+      "CFA": 0,
+      "n": 7190,
+      "NLL": 3.985427924253897,
+      "CRPS": 8.286330098267772,
+      "mean_MSE": 338.6779953589632,
+      "coverage90": 0.9325452016689847
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "F_qPG",
+      "CFA": 1,
+      "n": 5972,
+      "NLL": 4.001306707366726,
+      "CRPS": 8.292601079696084,
+      "mean_MSE": 365.98218908552667,
+      "coverage90": 0.9315137307434695
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "F_qPG",
+      "CFA": 2,
+      "n": 6038,
+      "NLL": 4.035269665000848,
+      "CRPS": 8.48538735843484,
+      "mean_MSE": 400.92988401936935,
+      "coverage90": 0.9269625703875456
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PG",
+      "CFA": 0,
+      "n": 7190,
+      "NLL": 3.984730488012329,
+      "CRPS": 8.281120786829534,
+      "mean_MSE": 337.682008284934,
+      "coverage90": 0.9297635605006954
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PG",
+      "CFA": 1,
+      "n": 5972,
+      "NLL": 4.0000150388281055,
+      "CRPS": 8.281486635116204,
+      "mean_MSE": 364.1260501192038,
+      "coverage90": 0.9296718017414601
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PG",
+      "CFA": 2,
+      "n": 6038,
+      "NLL": 4.033959989946602,
+      "CRPS": 8.473111825523151,
+      "mean_MSE": 398.8665423292543,
+      "coverage90": 0.923981450811527
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PMF",
+      "CFA": 0,
+      "n": 7190,
+      "NLL": 3.9852206766517906,
+      "CRPS": 8.28590236403812,
+      "mean_MSE": 337.8219440545464,
+      "coverage90": 0.9297635605006954
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PMF",
+      "CFA": 1,
+      "n": 5972,
+      "NLL": 4.000716689592982,
+      "CRPS": 8.288325812644283,
+      "mean_MSE": 364.31500540960826,
+      "coverage90": 0.9296718017414601
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Global_PMF",
+      "CFA": 2,
+      "n": 6038,
+      "NLL": 4.034594134008683,
+      "CRPS": 8.479071710360426,
+      "mean_MSE": 399.00770582171594,
+      "coverage90": 0.923981450811527
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "LB3",
+      "CFA": 0,
+      "n": 7190,
+      "NLL": 3.9848770829470648,
+      "CRPS": 8.28053439478919,
+      "mean_MSE": 338.680568262296,
+      "coverage90": 0.9324061196105702
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "LB3",
+      "CFA": 1,
+      "n": 5972,
+      "NLL": 4.002225648198093,
+      "CRPS": 8.300655957152282,
+      "mean_MSE": 366.68513875265586,
+      "coverage90": 0.9318486269256531
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "LB3",
+      "CFA": 2,
+      "n": 6038,
+      "NLL": 4.035745718008054,
+      "CRPS": 8.488888806521206,
+      "mean_MSE": 401.1734802310044,
+      "coverage90": 0.9276250414044386
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Local_PG",
+      "CFA": 0,
+      "n": 7190,
+      "NLL": 3.9832050087514768,
+      "CRPS": 8.263227194617057,
+      "mean_MSE": 338.38947094385935,
+      "coverage90": 0.9305980528511822
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Local_PG",
+      "CFA": 1,
+      "n": 5972,
+      "NLL": 4.000318374715977,
+      "CRPS": 8.282069530436223,
+      "mean_MSE": 366.3690525955425,
+      "coverage90": 0.9310113864701942
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "Local_PG",
+      "CFA": 2,
+      "n": 6038,
+      "NLL": 4.0329645927354445,
+      "CRPS": 8.46270509725056,
+      "mean_MSE": 400.38478596839286,
+      "coverage90": 0.9263000993706525
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "N0_PG",
+      "CFA": 0,
+      "n": 7190,
+      "NLL": 3.982705705494447,
+      "CRPS": 8.258347944256055,
+      "mean_MSE": 338.1920348857944,
+      "coverage90": 0.9312934631432546
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "N0_PG",
+      "CFA": 1,
+      "n": 5972,
+      "NLL": 3.998276415051971,
+      "CRPS": 8.262369894093586,
+      "mean_MSE": 365.3810626433345,
+      "coverage90": 0.9320160750167448
+    },
+    {
+      "frame": "P2654749.RW2",
+      "method": "N0_PG",
+      "CFA": 2,
+      "n": 6038,
+      "NLL": 4.032514804418409,
+      "CRPS": 8.458744474134157,
+      "mean_MSE": 400.4689115564883,
+      "coverage90": 0.9279562769128851
+    }
+  ],
+  "paired": [
+    {
+      "frame": "P2654748.RW2",
+      "baseline": "F_qPG",
+      "NLL": -0.005012942017491806,
+      "CRPS": -0.04651579150983309
+    },
+    {
+      "frame": "P2654748.RW2",
+      "baseline": "Global_PG",
+      "NLL": -0.0051276660678047925,
+      "CRPS": -0.04638178044559815
+    },
+    {
+      "frame": "P2654748.RW2",
+      "baseline": "Global_PMF",
+      "NLL": -0.005773066487817502,
+      "CRPS": -0.052548130564122886
+    },
+    {
+      "frame": "P2654748.RW2",
+      "baseline": "LB3",
+      "NLL": -0.003971866089588882,
+      "CRPS": -0.03686181655937837
+    },
+    {
+      "frame": "P2654748.RW2",
+      "baseline": "Local_PG",
+      "NLL": -0.0013424178322649638,
+      "CRPS": -0.011017081403952744
+    },
+    {
+      "frame": "P2654749.RW2",
+      "baseline": "F_qPG",
+      "NLL": -0.002828307644840322,
+      "CRPS": -0.028260524123432162
+    },
+    {
+      "frame": "P2654749.RW2",
+      "baseline": "Global_PG",
+      "NLL": -0.0017535040475973318,
+      "CRPS": -0.018992290790475153
+    },
+    {
+      "frame": "P2654749.RW2",
+      "baseline": "Global_PMF",
+      "NLL": -0.002354737200327861,
+      "CRPS": -0.024784420632917303
+    },
+    {
+      "frame": "P2654749.RW2",
+      "baseline": "LB3",
+      "NLL": -0.0030575666920436007,
+      "CRPS": -0.02969668889962307
+    },
+    {
+      "frame": "P2654749.RW2",
+      "baseline": "Local_PG",
+      "NLL": -0.0009635622598826998,
+      "CRPS": -0.009200118787013878
+    }
+  ],
+  "source_SHA": {
+    "ISO": 12800,
+    "time": "2026-10-27T10:51:20+0800",
+    "relative_sources": {
+      "space_v2_iso12800/validation_math.py": "bbd2bf7b102e104671817a7833b76f753aa5250b402a2c61b484ccf47cc17c7c",
+      "space_v2_iso12800/real_pair_math.py": "eef0c6135908d48c73499f8a282166f44ba0137625f0077fb564dcf54a2026f6",
+      "space_v2_iso12800/common.py": "77c63ad3fb92add09cb25725eb5acbcbf6f1051f57d7186e7299294eb3005769",
+      "space_v2_iso12800/pg.py": "f659de219c6783e364e7cf6f7953d51ea85d6bda6897535b9a478b4764cbe79c",
+      "space_v2_iso12800/metrics.py": "1d6ebf2bbb37ec70d85a2f4da77ef460ae5353a30a96274eef531e55ddd66723",
+      "space_v2_iso12800/baselines.py": "77b514e96dcb75b6d88027edf197f348aeab36ccef22234793084ac0c8eda039",
+      "space_v2_iso12800/remote_gpu_math.py": "119acaf2ebf22e2950229cf2f38392b3b8c1533e03afb54f699775372daeabd5",
+      "space_v2_iso12800/data.py": "fd58dcfdf45720061f75e44cec7326d5bff9967c218f9ee2eee4ca8a9dd60042",
+      "space_v2/fast_pg.py": "260468649d9959ccb2c6ad352f018c6f57f3d8a6f8ff486f7fc72ac3d22213d6",
+      "space_v2/cpu_pg.py": "09f17596f9b42befd615ebf0416045326e648eba104430fea26d73f47e2f5806",
+      "space_v2/context_baselines.py": "22d457005a1e120cbdcb7a597e9c1ef175b24e959acb9558bc80b9f0da5744c6",
+      "space_v2/foi_natural.py": "d9cac4a8d7dc950dfba2bb641ca77bd4efc117010b48e9d04abd8e67ee2efdfa",
+      "physics/pg_quantized.py": "4e2d0ecbc10956d97dd6cef72a42034e93fdf0b66f2f772cbf14bfca085f7388",
+      "baselines/local_pg.py": "23b1d4146c442aad815ed67cde9ae1291665e04ea2f63bf5cba725a7051de557",
+      "baselines/foi_adapter.py": "e907df583d66fd22da68851438c0f3593adafd44598d00b7781cfeaffc993754"
+    },
+    "train_fit_sha256": "182321211bce772916427e80fc51809a66b6705895025caca12ccbda15214f5a",
+    "model_sha256": "662eef3e581eb77d1e948ee800d6e63c0ab0039c3b4cff8f9fafe8a99074894f",
+    "PTC_sha256": "7ccb2874c7ccd80e6d285c369e2475267ce5a314f59aa9e971cebbbf3f354ebc",
+    "deployment": "Remote math only; same frozen local N0 predictions transferred, no network weights or training",
+    "inputs_manifest_sha256": "2d834e25bddcb043daf16d21d84f615cdb9df69d521960ce6c4cf89040994922",
+    "primary": "Common real R/G1/G2 candidate positions, realized integer NLL and CRPS; known-sample exploratory pairs",
+    "width": 3,
+    "no_real_selection": true,
+    "no_scene_confidence_intervals": true,
+    "Global_PMF_tail": "Coarsened train PMF with within-tail PG at fixed train per-CFA signal and nominal b; never fit hidden real codes"
+  },
+  "manifest_sha256": "2d834e25bddcb043daf16d21d84f615cdb9df69d521960ce6c4cf89040994922",
+  "no_real_oracle": true,
+  "no_population_confidence_interval": true,
+  "no_training_or_selection": true,
+  "contexts_packed": 256,
+  "center_core": 64,
+  "RAW_evaluation": "Existing two exposures, same integer alignment and exactly common R/G candidates; known-sample exploratory comparison"
+}

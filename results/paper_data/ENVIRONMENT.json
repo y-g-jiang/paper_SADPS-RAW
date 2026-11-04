@@ -1,0 +1,19 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\bcm18\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "rawpy": "0.27.0",
+  "libraw": [
+    0,
+    22,
+    1
+  ],
+  "psutil": "7.2.2",
+  "gpu": "NVIDIA GeForce RTX 3090 Ti",
+  "TF32": false,
+  "cpu_torch_threads": 2,
+  "local_storage_root": "E:\\Workspaces\\below_zero_review_20261027"
+}

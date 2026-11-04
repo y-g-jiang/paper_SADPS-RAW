@@ -1,0 +1,12 @@
+% XeLaTeX: all fonts are resolved from the local installation.
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[
+  BoldFont=TeXGyreTermes-Bold,
+  ItalicFont=TeXGyreTermes-Italic,
+  BoldItalicFont=TeXGyreTermes-BoldItalic,
+  SmallCapsFont=TeXGyreTermes-Regular,
+  SmallCapsFeatures={Letters=SmallCaps}
+]{TeXGyreTermes-Regular}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{Liberation Sans}}
+\setmonofont{TeXGyreCursor-Regular}

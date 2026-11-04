@@ -1,0 +1,4 @@
+\ProvidesFile{TUpcr.fd}[2026/10/30 System-installed mono family]
+\DeclareFontFamily{TU}{pcr}{}
+\DeclareFontShape{TU}{pcr}{m}{n}{<-> "TeXGyreCursor-Regular"}{}
+\endinput

@@ -1,0 +1,33 @@
+{
+  "development_figure": {
+    "evidence_class": "dev-posthoc",
+    "source_split": "dev",
+    "source_files": [
+      "fairness_sources_labeled.csv",
+      "development_point_CI.csv"
+    ],
+    "sources": 32,
+    "aggregation": "CFA then equal-source mean",
+    "bootstrap_unit": "source",
+    "resamples": 10000,
+    "seed": 20261027
+  },
+  "processing_panels": {
+    "original_pdf_sha256": "0b2117d8324dce7252ba5052f7540507c187c2a67f67653ead0a7e3de5892ce5",
+    "page": 10,
+    "resource": "/Im6, nested /I1..I4",
+    "x_positions_in_original_form": [
+      1.8,
+      119.4331332533,
+      237.0662665066,
+      354.6993997599
+    ],
+    "pixel_size": [
+      155,
+      155
+    ],
+    "alteration": "none; extracted bytes checked",
+    "evidence_class": "existing real processing-order illustration; not method superiority"
+  },
+  "old_mixed_dashboard": "omitted from manuscript package; not a submission figure"
+}

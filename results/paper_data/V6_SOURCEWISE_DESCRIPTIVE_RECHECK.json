@@ -1,0 +1,58 @@
+{
+  "source": "/mnt/data/_adversarial_review/per_mother_metrics.csv",
+  "sha256": "cbf2e13cd47bdc953fdf28ffd9846e5b23e131ef274a38668edf543f15459eff",
+  "results": {
+    "Local_PG": {
+      "KL": {
+        "better": 138,
+        "tie": 0,
+        "worse": 0,
+        "n": 138,
+        "mean_difference": -0.0014102863061682186,
+        "median_difference": -0.00046928793679278254
+      },
+      "NLL": {
+        "better": 130,
+        "tie": 0,
+        "worse": 8,
+        "n": 138,
+        "mean_difference": -0.0014070607506177285,
+        "median_difference": -0.0005285352445412173
+      },
+      "CRPS": {
+        "better": 131,
+        "tie": 0,
+        "worse": 7,
+        "n": 138,
+        "mean_difference": -0.010889620105725674,
+        "median_difference": -0.004788390300983991
+      }
+    },
+    "F_qPG": {
+      "KL": {
+        "better": 138,
+        "tie": 0,
+        "worse": 0,
+        "n": 138,
+        "mean_difference": -0.0018350337894310572,
+        "median_difference": -0.00154365797131285
+      },
+      "NLL": {
+        "better": 134,
+        "tie": 0,
+        "worse": 4,
+        "n": 138,
+        "mean_difference": -0.001886328782765531,
+        "median_difference": -0.0014906887254859669
+      },
+      "CRPS": {
+        "better": 132,
+        "tie": 0,
+        "worse": 6,
+        "n": 138,
+        "mean_difference": -0.016403621410937402,
+        "median_difference": -0.013286587401551309
+      }
+    }
+  }
+}

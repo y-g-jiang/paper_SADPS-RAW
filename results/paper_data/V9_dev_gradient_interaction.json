@@ -1,0 +1,24 @@
+{
+  "scope": "post-hoc paired high-minus-low gradient contrast on the existing 32-source development set",
+  "n_sources": 32,
+  "n_positions": 32462,
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 20261029,
+  "joint_resampling_indices_for_both_metrics": true,
+  "mean_within_source_bin": "candidate mean across included CFA positions",
+  "KL": {
+    "mean": -0.0010663383388369138,
+    "CI95": [
+      -0.0021772926720290313,
+      -0.0002710901594608547
+    ]
+  },
+  "NLL": {
+    "mean": -0.0008073991376596107,
+    "CI95": [
+      -0.0032309008583846373,
+      0.001221025993736344
+    ]
+  },
+  "source_sha256": "58ec10f35a5783671370a21584cc2ac634fd4e58a64d0a77595bd13e172be790"
+}

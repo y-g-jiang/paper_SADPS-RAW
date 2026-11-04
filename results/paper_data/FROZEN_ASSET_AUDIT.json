@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": {
+    "TRAIN_CONFIG.json": {
+      "sha256": "aff3f29e56e0e99e86569be34f04cd7ae5cf8844df363be6b23b4e589288981e",
+      "matches_archived_snapshot": true
+    },
+    "FINAL_MODEL_FREEZE.json": {
+      "sha256": "5fbd007c04817ae72957cb1a52c4d097d5c91110da9c7a8ae9eff48b8a0cac3c",
+      "matches_archived_snapshot": true
+    },
+    "FINAL_VALIDATION/PREREGISTRATION.json": {
+      "sha256": "789bea13bd259b9f97ca7dd8d55c545864c2e726e975cf8e39f7de38599da2ca",
+      "matches_archived_snapshot": true
+    },
+    "FINAL_VALIDATION/INDEPENDENT_TEST_RESULT.json": {
+      "sha256": "29a98399d0ba7a4e11661afebba92914f383e1bd39006d9c3a71c331bf40d14a",
+      "matches_archived_snapshot": true
+    },
+    "checkpoint": {
+      "sha256": "662eef3e581eb77d1e948ee800d6e63c0ab0039c3b4cff8f9fafe8a99074894f",
+      "matches_protocol": true
+    },
+    "PTC": {
+      "sha256": "7ccb2874c7ccd80e6d285c369e2475267ce5a314f59aa9e971cebbbf3f354ebc",
+      "matches_protocol": true
+    }
+  },
+  "scope": "identity only; no test image read or neural ranking rerun"
+}

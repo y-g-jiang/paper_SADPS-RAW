@@ -1,0 +1,29 @@
+{
+  "source_split": "32 dev mothers; post hoc",
+  "experiment_registered_before_readout": false,
+  "bootstrap_unit": "mother",
+  "seed": 20261027,
+  "comparisons": {
+    "KL": {
+      "mean_joint_minus_local": -0.0001613743588489591,
+      "CI95": [
+        -0.0002309014032060171,
+        -5.482934986174315e-05
+      ]
+    },
+    "NLL": {
+      "mean_joint_minus_local": -8.024232816086774e-05,
+      "CI95": [
+        -0.0003580633832308101,
+        0.0001814828611706974
+      ]
+    },
+    "CRPS": {
+      "mean_joint_minus_local": -0.0006721085058357945,
+      "CI95": [
+        -0.003012576144441262,
+        0.0015821753947860273
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "N0",
+  "seed": 7103,
+  "head": "PG",
+  "loss": "softCE",
+  "lr": 0.0002,
+  "warmup": 2000,
+  "horizon": 80000,
+  "min_lr_ratio": 0.01,
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "ema": 0.999,
+  "accumulation": 2,
+  "physical_batch": 1,
+  "contexts": [
+    128,
+    256
+  ],
+  "core": 64,
+  "max_train_candidates": 2048,
+  "natural_weight": 0.9,
+  "auxiliary_weight": 0.1,
+  "validation": "all 137 dev mothers x2 realizations x128/256; natural mother equal primary",
+  "selection": "minimum EMA dev natural mother-equal coarsened KL; aux separately",
+  "data_seed": 7103,
+  "dev_seed": 7103,
+  "dataset_manifest_sha256": "b2ab1a70057aff23372909e9255bb817930364baceab48d76342d9a2f5b1a793",
+  "ptc_sha256": "28e5ad8096cba2346111e511fc44d29de4b632d851ffd553695ef3dbbb8217b5"
+}

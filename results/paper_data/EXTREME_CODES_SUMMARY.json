@@ -1,0 +1,341 @@
+{
+  "status": "PASS",
+  "source_split": "existing two exposures, 12 fixed ROI, primary RG1G2, previously selected scored positions",
+  "experiment_registered_before_readout": false,
+  "diagnostic_plan_before_current_read": true,
+  "source_file_sha": "218cd831e7203f3405f61f394c860535e4547ba3f5db2d11da1df6559277cf2a",
+  "manifest_sha": "ef163d52b950f373b953223ec058fabd840da5d641b801538ab8a666e1d33580",
+  "protocol_sha": "4043607f04bedeb2f2a417a292c3f319bc5f1d76f6c37d8851089240862fd397",
+  "source_sha256": {
+    "P2654748.RW2": "4ba876d78e4a02111573e0e6d2605cfc2c493f171a91e850fd46d23646f3623b",
+    "P2654749.RW2": "d136117d72b15df46f883b3e4309d1e4c79ef0f86a096b2412b0ebf00203974c",
+    "P2654750.RW2": "ba7be0cccacf424c0b15da866a30afa632576c026d533b625c38b0948e1db89c",
+    "P2654751.RW2": "1a30242397ea2b711088291e30f0e00d585b3e087d827eaccb2d6b729ab5d874",
+    "P2654752.RW2": "0dba915a44ed9294d36d5e9d527ba957e38afea3521a6afd50d8aa31d7813819",
+    "P2654753.RW2": "0c0a6e06ef7be80da07c25c420be34882a96e1955ce14a7658d391c19a1d1f42",
+    "P2654754.RW2": "7250aadbb93aa6ece83f525a5c4bcbfda5e5562abb2c72a813428be4e80b61a9",
+    "P2654755.RW2": "2064b2aec48cfc29bacf3d98c91dc0d4f1a7444808690ebabd67cd456e4fffce",
+    "P2654756.RW2": "e8308edceb7fa0378f6a3a5726d1e6eb42d7ed466f5d5fef2694f94dd41290e1",
+    "P2654757.RW2": "3b9f74acea8c57d80f47488ad04d05ad64be22c39caf045fc8e3f74b7e7ee2ca",
+    "P2654758.RW2": "b69c884d08b748569fff3fe711d63f23d7028d08ea8dbdb2efcb47e061312372",
+    "P2654759.RW2": "c7b726613e57beee8631019de96293c88b69cf6810f875c4298b61cc3fb3a8d5"
+  },
+  "method_id": "posthoc_native_code_integrity",
+  "metric_definition": "nested aligned thresholds and same active Bayer coordinate re-decode",
+  "bootstrap_unit": null,
+  "seed": null,
+  "candidates": 31852,
+  "counts": {
+    "128": {
+      "registered_candidate_rows": 122,
+      "distinct_frame_coordinates": 122,
+      "native_zero_rows": 0,
+      "by_frame": {
+        "P2654748.RW2": 43,
+        "P2654749.RW2": 79
+      },
+      "by_CFA": {
+        "R": 44,
+        "G1": 36,
+        "G2": 42
+      }
+    },
+    "256": {
+      "registered_candidate_rows": 21,
+      "distinct_frame_coordinates": 21,
+      "native_zero_rows": 0,
+      "by_frame": {
+        "P2654748.RW2": 8,
+        "P2654749.RW2": 13
+      },
+      "by_CFA": {
+        "R": 7,
+        "G1": 8,
+        "G2": 6
+      }
+    },
+    "305": {
+      "registered_candidate_rows": 13,
+      "distinct_frame_coordinates": 13,
+      "native_zero_rows": 0,
+      "by_frame": {
+        "P2654748.RW2": 5,
+        "P2654749.RW2": 8
+      },
+      "by_CFA": {
+        "R": 3,
+        "G1": 4,
+        "G2": 6
+      }
+    }
+  },
+  "cross_frame_repetition_at_event_union_coordinates": {
+    "128": {
+      "count": 12,
+      "positions": [
+        [
+          3669,
+          368,
+          "G1"
+        ],
+        [
+          3656,
+          457,
+          "G2"
+        ],
+        [
+          3683,
+          458,
+          "G1"
+        ],
+        [
+          3668,
+          1081,
+          "G2"
+        ],
+        [
+          337,
+          1644,
+          "G1"
+        ],
+        [
+          354,
+          2312,
+          "R"
+        ],
+        [
+          344,
+          2339,
+          "G2"
+        ],
+        [
+          426,
+          2897,
+          "G2"
+        ],
+        [
+          438,
+          2909,
+          "G2"
+        ],
+        [
+          400,
+          2953,
+          "G2"
+        ],
+        [
+          395,
+          2964,
+          "G1"
+        ],
+        [
+          369,
+          2976,
+          "G1"
+        ]
+      ]
+    },
+    "256": {
+      "count": 2,
+      "positions": [
+        [
+          3683,
+          458,
+          "G1"
+        ],
+        [
+          354,
+          2312,
+          "R"
+        ]
+      ]
+    },
+    "305": {
+      "count": 1,
+      "positions": [
+        [
+          354,
+          2312,
+          "R"
+        ]
+      ]
+    }
+  },
+  "decoder": {
+    "P2654748.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654749.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654750.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654751.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654752.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654753.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654754.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654755.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654756.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654757.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654758.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    },
+    "P2654759.RW2": {
+      "rawpy": "0.27.0",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "crop": [
+        4,
+        4,
+        4000,
+        6000
+      ]
+    }
+  },
+  "csv_sha": "eb2677ba36bccf165717a54c1da2cd27ed3e211650331d1efeec0bf8ffb37370",
+  "limitations": [
+    "Calibration dark frames not independent; primary only.",
+    "ROI and candidate selection are pre-existing; this is post hoc.",
+    "Repeated coordinate does not establish a sensor defect or cause.",
+    "No invalid code classification, exclusion, or score recomputation."
+  ]
+}

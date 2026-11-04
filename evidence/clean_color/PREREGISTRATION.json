@@ -1,0 +1,418 @@
+{
+  "time": "2026-10-30T13:19:29.219268+08:00",
+  "evidence_class": "preregistered_after_historical_results_development_endpoint_not_confirmatory",
+  "scenes": [
+    {
+      "id": "dev_02",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\02\\scene_arrays.npz",
+        "sha256": "8935874157316cf366504ce69ac5683e339725e7a2c31a0dd633974ca627eced",
+        "mother": "bsds_159091"
+      },
+      "input_file": "dev_02.npz",
+      "input_sha256": "1ff46094391c3422ab3856496b488be4faaf0ce421ae5753024d4c8386c02abc",
+      "exposure": 0.07963959933466132,
+      "dark_blocks": [
+        14,
+        15,
+        11,
+        13,
+        10,
+        9,
+        8,
+        3
+      ],
+      "clean_quantization_max_DN": 0.49999213218688965
+    },
+    {
+      "id": "dev_10",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\10\\scene_arrays.npz",
+        "sha256": "46f205bd9abf0d15a5f56fcf70f071f45cc99bd65d4ef15292026e0b41127dff",
+        "mother": "bsds_164074"
+      },
+      "input_file": "dev_10.npz",
+      "input_sha256": "5e3cf67b0cce7894738c1d43cff187eae18ce7ce0263eccff6348fe2b7cbb635",
+      "exposure": 0.03835980423456324,
+      "dark_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        6
+      ],
+      "clean_quantization_max_DN": 0.4999995231628418
+    },
+    {
+      "id": "dev_11",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\11\\scene_arrays.npz",
+        "sha256": "a4ec9572a3189dfd14538a9c11d99d2e4469b2f19e0f5b2d13eb4785e55eda78",
+        "mother": "bsds_181091"
+      },
+      "input_file": "dev_11.npz",
+      "input_sha256": "ccdea0d4c1a071eb6ceb48203118177381097b86ac455559454bd298b2056b4a",
+      "exposure": 0.03258038843399864,
+      "dark_blocks": [
+        7,
+        11,
+        13,
+        15,
+        0,
+        14,
+        3,
+        12
+      ],
+      "clean_quantization_max_DN": 0.4999980926513672
+    },
+    {
+      "id": "dev_18",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\18\\scene_arrays.npz",
+        "sha256": "6c831ac2f6d79e0caa0131a634e56edfa6b0a731020e7ba48cd23b8c690bcd72",
+        "mother": "bsds_231015"
+      },
+      "input_file": "dev_18.npz",
+      "input_sha256": "a69655e78398d22d05bc70414863cd0b2f738daff78cab18b2b81d18c456031f",
+      "exposure": 0.0013196345568017626,
+      "dark_blocks": [
+        13,
+        5,
+        9,
+        8,
+        4,
+        10,
+        1,
+        6
+      ],
+      "clean_quantization_max_DN": 0.49999237060546875
+    },
+    {
+      "id": "dev_21",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\21\\scene_arrays.npz",
+        "sha256": "99bb5d1bfab80eb85492758a4dd5a235ca5c07e4345299f2f1f192d8e4873aed",
+        "mother": "bsds_351093"
+      },
+      "input_file": "dev_21.npz",
+      "input_sha256": "d6ceef1bba7363dc663c98c99ecd829d439049482b8f66a0e9c76b7c4aced766",
+      "exposure": 0.04636945113982771,
+      "dark_blocks": [
+        0,
+        13,
+        4,
+        8,
+        12,
+        5,
+        9,
+        1
+      ],
+      "clean_quantization_max_DN": 0.49997034668922424
+    },
+    {
+      "id": "dev_24",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\24\\scene_arrays.npz",
+        "sha256": "8fb8292a645c2e2a4fac353a8d60b02df8a544e68d2c48d36239895a6b578a0a",
+        "mother": "bsds_304074"
+      },
+      "input_file": "dev_24.npz",
+      "input_sha256": "2b1a292b6d910c4b12352df8afde15e4e8371b0f71468149e2685c9cee148733",
+      "exposure": 0.05690555256899048,
+      "dark_blocks": [
+        1,
+        2,
+        15,
+        4,
+        0,
+        11,
+        14,
+        5
+      ],
+      "clean_quantization_max_DN": 0.4999971389770508
+    },
+    {
+      "id": "dev_27",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\27\\scene_arrays.npz",
+        "sha256": "8aa07bee72543203e5f2a919d0557c734321fbc16d44abfbd5f50c71f6c56cdf",
+        "mother": "bsds_86016"
+      },
+      "input_file": "dev_27.npz",
+      "input_sha256": "42a53ba861127eb413de0718afb06fcd8166a7db54bbd9c8289c720d165f39d2",
+      "exposure": 0.0030817003881554797,
+      "dark_blocks": [
+        12,
+        0,
+        4,
+        8,
+        9,
+        5,
+        1,
+        13
+      ],
+      "clean_quantization_max_DN": 0.5
+    },
+    {
+      "id": "dev_30",
+      "kind": "natural",
+      "origin": {
+        "input_path": "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\30\\scene_arrays.npz",
+        "sha256": "3f4e20dccd1c60e87427a639ed559515cdffdf0e6e5a914ab708a394b74ebb02",
+        "mother": "bsds_376043"
+      },
+      "input_file": "dev_30.npz",
+      "input_sha256": "b2ba1ab6cf639e431caa040e31c7da77ec548efdff623afcc523471fa06d8820",
+      "exposure": 0.0028847940750111227,
+      "dark_blocks": [
+        12,
+        5,
+        1,
+        3,
+        8,
+        2,
+        15,
+        13
+      ],
+      "clean_quantization_max_DN": 0.49999332427978516
+    },
+    {
+      "id": "neutral_steps",
+      "kind": "template",
+      "origin": {
+        "generator": "templates() in frozen experiment source"
+      },
+      "input_file": "neutral_steps.npz",
+      "input_sha256": "47fcbbc9a64500d3011f73f17f2390e832e9f436a33eea6418c771bb4857d4ea",
+      "exposure": 0.01791926373845547,
+      "dark_blocks": [
+        1,
+        5,
+        9,
+        13,
+        0,
+        4,
+        8,
+        12
+      ],
+      "clean_quantization_max_DN": 0.4475524425506592
+    },
+    {
+      "id": "colored_steps",
+      "kind": "template",
+      "origin": {
+        "generator": "templates() in frozen experiment source"
+      },
+      "input_file": "colored_steps.npz",
+      "input_sha256": "527f666eb50da852335349f12277d50807851847221badddadb07ea19e96c6b0",
+      "exposure": 0.01914747610106496,
+      "dark_blocks": [
+        13,
+        12,
+        9,
+        8,
+        1,
+        0,
+        5,
+        4
+      ],
+      "clean_quantization_max_DN": 0.46666717529296875
+    },
+    {
+      "id": "edge_lines",
+      "kind": "template",
+      "origin": {
+        "generator": "templates() in frozen experiment source"
+      },
+      "input_file": "edge_lines.npz",
+      "input_sha256": "a63c279f902dd900407f79bc7fb3b59ca42462ee857b14dd7e9698b23ff8572c",
+      "exposure": 0.010023318553543669,
+      "dark_blocks": [
+        1,
+        5,
+        9,
+        13,
+        0,
+        4,
+        8,
+        12
+      ],
+      "clean_quantization_max_DN": 0.4755244255065918
+    },
+    {
+      "id": "fine_texture",
+      "kind": "template",
+      "origin": {
+        "generator": "templates() in frozen experiment source"
+      },
+      "input_file": "fine_texture.npz",
+      "input_sha256": "bfbc6e1521c6cea4579553756719f2a2dae80d8b887c17648666b7fb2bf6f391",
+      "exposure": 0.03050710316501932,
+      "dark_blocks": [
+        1,
+        5,
+        9,
+        13,
+        3,
+        7,
+        11,
+        15
+      ],
+      "clean_quantization_max_DN": 0.5
+    }
+  ],
+  "selection": "All eight of the existing32 development crops whose entire128x128 packed valid mask is one; no model scores inspected for selection. Four fixed generated templates reported separately.",
+  "physical": {
+    "gain": 21.601092412099675,
+    "analog_RN": 24.95960511926749,
+    "black": 512,
+    "b": 0,
+    "K": 304,
+    "ADC_bits": 14
+  },
+  "methods": [
+    "Signed",
+    "Clipped",
+    "Local_sample",
+    "N0_sample",
+    "Local_mean_Q",
+    "N0_mean_Q"
+  ],
+  "model_seed": 7103,
+  "model_precision": "FP32; TF32 disabled",
+  "local": "Frozen same-CFA5x5 censored-PG MLE; exact adaptive likelihood and original quadratic grid refinement",
+  "renderer": {
+    "name": "pinned pedestal-preserving integer LibRaw AHD",
+    "pedestal": 512,
+    "camera": {
+      "rgb_cam": [
+        [
+          1.4555848836898804,
+          -0.18127283453941345,
+          -0.2743121087551117,
+          0.0
+        ],
+        [
+          -0.1724015772342682,
+          1.5645266771316528,
+          -0.39212512969970703,
+          0.0
+        ],
+        [
+          -0.030560053884983063,
+          -0.38024866580963135,
+          1.4108086824417114,
+          0.0
+        ]
+      ],
+      "cam_xyz": [
+        [
+          1.0307999849319458,
+          -0.4205999970436096,
+          -0.07829999923706055
+        ],
+        [
+          -0.40880000591278076,
+          1.2101999521255493,
+          0.22290000319480896
+        ],
+        [
+          -0.012500000186264515,
+          0.10509999841451645,
+          0.5911999940872192
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "cam_mul": [
+        384.0,
+        256.0,
+        572.0,
+        0.0
+      ],
+      "daylight_mul": [
+        2.110198736190796,
+        0.9395422339439392,
+        1.356971025466919,
+        0.0
+      ]
+    },
+    "WB": "fixed from historical metadata, shared across all scenes/methods",
+    "area_factor": 4,
+    "score_crop_RAW": [
+      64,
+      64,
+      128,
+      128
+    ],
+    "exposure": "0.18/max(clean central mean linear luminance,1DN), fixed per scene",
+    "primary_domain": "exposed linear display RGB before clipping/tone",
+    "display": "clip0..1 then sRGB; secondary only"
+  },
+  "quantization": "Q(x)=floor(x+0.5) for clean reference and conditional mean before the same integer AHD. Mean_Q is a deterministic quantized point-estimate baseline, not an exact floating-AHD mean. Pre-Q means and rounding errors retained.",
+  "noise_realizations": 16,
+  "posterior_draws_per_input": 2,
+  "noise_seed": [
+    20261030,
+    4401,
+    "scene_index",
+    "noise_index"
+  ],
+  "sample_seed": 7103,
+  "sample_image_id": "30000+scene_index*16+noise_index",
+  "primary": "Mean over8 fixed dark blocks of squared error of block mean (R-G,B-G) relative to clean-Q-AHD. Compute each draw first; average posterior draws then sensor realizations then equal natural mother images.",
+  "dark_selection": "4x4 equal grid of32x32RAW blocks in central128RAW; lowest8 clean-reference mean linear luminances; stable row-major tie break",
+  "secondary": [
+    "signed_luminance_bias",
+    "absolute_luminance_bias",
+    "squared_luminance_bias",
+    "color_error_all_blocks",
+    "block_contrast_error",
+    "display_clipped_color_error",
+    "RAW_clean_MSE"
+  ],
+  "contrast": "Mean squared error of horizontal/vertical differences between adjacent block mean RGB; evaluates preservation of real color and edge contrast, not merely chroma suppression",
+  "statistical_unit": "8 natural mother images; noise realizations and posterior draws are nested. Four templates separate descriptive results.",
+  "bootstrap": {
+    "seed": 20261030,
+    "resamples": 10000,
+    "interval": 0.95,
+    "method": "paired mother-image percentile; exploratory, no multiple-testing claims"
+  },
+  "stop": "One locked experiment. Report all arms and sources regardless of direction. Do not change scene selection/processing/endpoint, retrain, or search further tasks after a tie or unfavorable result.",
+  "numerical_admission": "LUT PMF vs exact FP64 at32 fixed signal points before experiment, TV<1e-5 and mean error<1e-3DN; tail first/second-moment bound<1e-12; sampling reclip/positive identity every draw; fixed-PMF reverse ordering; render constant and repeatability tests.",
+  "assets": {
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\BEST_WEIGHTS.pt": "662eef3e581eb77d1e948ee800d6e63c0ab0039c3b4cff8f9fafe8a99074894f",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\PG_LUT.npz": "d624318f433c6ac0f1e830e3610357b4f6a9616739d417fb11bc6f090561461c",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\configs\\ptc_s5m2_iso12800_localRG_locked.json": "7ccb2874c7ccd80e6d285c369e2475267ce5a314f59aa9e971cebbbf3f354ebc",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\FINAL_VALIDATION\\INDEPENDENT_TEST_RESULT.json": "29a98399d0ba7a4e11661afebba92914f383e1bd39006d9c3a71c331bf40d14a",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\REAL_AHD_TRIPLET_V1\\BACKEND\\PINNED\\ahd_pinned.dll": "96ae02651d813e7445b48cd7d81e17d4b738e4d1404fb056dad494f49009139d",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\REAL_AHD_TRIPLET_V1\\BACKEND\\PINNED\\libraw_pinned.dll": "3a5a494c3a2c92c64ee215e3bcf45fe89891e159c85304491616523d228f4728"
+  },
+  "source_sha256": {
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\endpoint_color_experiment.py": "b50e70b8b0b6ba7211ca9212f6935c9c0e0a2dc59d75cc58c79f2e5a2cc1d520",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_V7_POSTHOC_FINISH_20261028\\02_paired_stress\\execute.py": "abdf09c05adc40350672ebadab9391cdbaa151c17d352aa482df52bbdbf90027",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\network.py": "6ddd903da9da41f34c0a0b649fb5aa0eb4a533ada73178f625a134cd0ead134b",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\pg.py": "f659de219c6783e364e7cf6f7953d51ea85d6bda6897535b9a478b4764cbe79c",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\sampling.py": "d4888727e997a19c52dfe66557e0f78d2bd2998010a3043e9a6775951a6ef0c7",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\ahd_backend.py": "2fe4eececc4bc5656cf81e57ca02a87c7f925ed9581679c35983a5fa28f7aea4",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\ahd_pinned_verify.py": "162c270f73453fc25f909b4d166f2c72777ddc11f1cc2ecbc68eb85af1e946b9",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2\\context_baselines.py": "22d457005a1e120cbdcb7a597e9c1ef175b24e959acb9558bc80b9f0da5744c6",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2\\fast_pg.py": "260468649d9959ccb2c6ad352f018c6f57f3d8a6f8ff486f7fc72ac3d22213d6",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2\\categorical_sampling.py": "deae7ebf68b18d3ce237bfb0acc3d8d8393c21f4ae690162f372267cac2fac28"
+  },
+  "storage": "Full clean inputs12 smallNPZ, first realization arrays per scene, per-noise/draw/block numeric summaries; no full image cache for all draws."
+}

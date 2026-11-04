@@ -1,0 +1,101 @@
+{
+  "time": "2026-10-27T10:40:02+0800",
+  "status": "ADMITTED",
+  "libraw_version": "0.22.1-Release",
+  "libraw_commit": "b860248a89d9082b8e0a1e202e516f46af9adb29",
+  "source_and_binary_SHA": {
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\ahd_direct.cpp": "f3c931d8ef5f4a2d9027846723c178eeaaa5456b04e2ece97fa7be0d7043dad2",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\space_v2_iso12800\\ahd_backend.py": "2fe4eececc4bc5656cf81e57ca02a87c7f925ed9581679c35983a5fa28f7aea4",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\REAL_AHD_TRIPLET_V1\\BACKEND\\ahd_direct.dll": "69aa6b22b9dccb78f79a0395db01d5e9f340c85a271deac186912eac27d97c1b",
+    "C:\\Users\\bcm18\\AppData\\Roaming\\Python\\Python310\\site-packages\\rawpy\\raw_r.dll": "beedec9b907b987da72d7bc365f6c3f4e1f4532c9f95692fdf10c376df654c3a"
+  },
+  "build": "MSVC14.44.35207 /O2 /MD /EHsc /std:c++17, direct unmodified LibRaw exported AHD",
+  "call_chain": [
+    "open_bayer(black=0)",
+    "unpack()",
+    "raw2image_ex(0)",
+    "pre_interpolate()",
+    "ahd_interpolate()",
+    "float RGB minus common pedestal"
+  ],
+  "bypassed": [
+    "dcraw_process",
+    "subtract_black_internal",
+    "scale_colors",
+    "white balance",
+    "CCM",
+    "gamma",
+    "denoising"
+  ],
+  "AHD_quality": 3,
+  "no_fallback": true,
+  "full_array_RGGB": true,
+  "pre_ahd_black_subtraction": false,
+  "pre_ahd_auto_scale": false,
+  "pre_ahd_WB": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "output_stage": "PRE-WB/PRE-CCM/PRE-GAMMA_LINEAR_CAMERA_RGB",
+  "pedestal": 512,
+  "sensitivity_pedestal": 1024,
+  "camera_metadata": {
+    "rgb_cam": [
+      [
+        1.4555848836898804,
+        -0.18127283453941345,
+        -0.2743121087551117,
+        0.0
+      ],
+      [
+        -0.1724015772342682,
+        1.5645266771316528,
+        -0.39212512969970703,
+        0.0
+      ],
+      [
+        -0.030560053884983063,
+        -0.38024866580963135,
+        1.4108086824417114,
+        0.0
+      ]
+    ],
+    "cam_xyz": [
+      [
+        1.0307999849319458,
+        -0.4205999970436096,
+        -0.07829999923706055
+      ],
+      [
+        -0.40880000591278076,
+        1.2101999521255493,
+        0.22290000319480896
+      ],
+      [
+        -0.012500000186264515,
+        0.10509999841451645,
+        0.5911999940872192
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "cam_mul": [
+      384.0,
+      256.0,
+      572.0,
+      0.0
+    ],
+    "daylight_mul": [
+      2.110198736190796,
+      0.9395422339439392,
+      1.356971025466919,
+      0.0
+    ]
+  },
+  "interpolation_coefficients": "LibRaw uint16 AHD with nonlinear Lab homogeneity; pedestal sensitivity explicitly measured"
+}

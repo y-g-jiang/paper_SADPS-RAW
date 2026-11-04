@@ -1,0 +1,12 @@
+{
+  "camera": "Panasonic DC-S5M2",
+  "iso": 12800,
+  "seed": 7103,
+  "step": 80000,
+  "checkpoint_sha256": "662eef3e581eb77d1e948ee800d6e63c0ab0039c3b4cff8f9fafe8a99074894f",
+  "selection": "minimum development mother-equal Oracle-KL; no real or independent-test selection",
+  "ptc_sha256": "28e5ad8096cba2346111e511fc44d29de4b632d851ffd553695ef3dbbb8217b5",
+  "architecture_source_sha256": "4f59a7c75c4343caba1741d24929842af533c41acf76a10e3883a47036ca9b69",
+  "decoder": "FP64 exact quantized Poisson-Gaussian law",
+  "sampling": "coordinate-keyed signed integer conditional sampling"
+}

@@ -1,0 +1,10 @@
+{
+  "color_error": "Mean over fixed8dark blocks of squared error of block mean(R-G,B-G), exposed linear display RGB squared",
+  "block_contrast_error": "Mean squared RGB error of adjacent block differences, all16blocks",
+  "RAW_clean_MSE": "central64x64 packed CFA MSE in DN^2 against deterministic Q(s)",
+  "draw": "posterior draw0/1; deterministic methods only0",
+  "noise": "independent sensor realization0..15 within one source",
+  "Mean_Q": "conditional signed readout mean at zeros, Q=floor(x+.5); positive input unchanged",
+  "source_bootstrap": "8 natural source images,10000 paired resamples; templates excluded",
+  "inputs": "full signal,cleanQ,reference,exposure,dark block indices; noise0 replay stores exact input and outputs; remaining noises reproducible from preregistered seeds"
+}

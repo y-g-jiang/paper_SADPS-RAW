@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "metric_definition": "GPU censored likelihood versus independent scalar PG reference, duplicated single-template mixture and one zero-event posterior weighting",
+  "max_loglike_error": 3.197442310920451e-14,
+  "duplicate_component_max_error": 0.0,
+  "zero_event_weight_error": 0.0,
+  "limitations": [
+    "Arithmetic checks do not establish estimator competitiveness, optimality or full spatial-equivalence."
+  ]
+}

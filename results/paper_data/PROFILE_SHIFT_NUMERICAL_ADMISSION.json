@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "queries": 36,
+  "metric_definition": "exact torch PG versus NumPy scalar reference across nine profiles; center profile two arms identical",
+  "max_logpmf_error": 1.2789769243681803e-13,
+  "max_normalization_log_error": 8.881784197001252e-16,
+  "center_arm_max_metric_error": 0.0,
+  "limitations": [
+    "Numerical agreement does not establish real sensor accuracy."
+  ]
+}

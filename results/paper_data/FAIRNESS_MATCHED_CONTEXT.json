@@ -1,0 +1,42 @@
+{
+  "status": "DEV_POSTHOC_COMPLETE",
+  "source_split": "32 already selected dev mothers, original diagnostic mask; training prior only",
+  "experiment_registered_before_readout": false,
+  "source_file_sha": "58ec10f35a5783671370a21584cc2ac634fd4e58a64d0a77595bd13e172be790",
+  "prior_sha": "bb7040137afa65cb917668aaa716218a49ff9d489236ef2a56fe2177ab8b503e",
+  "method_id": "empirical_joint_CFA_Bayes_5x5",
+  "metric_definition": "per-position coarsened excess KL, realized NLL and CRPS, CFA means then mother mean; same candidates",
+  "bootstrap_unit": "source image",
+  "seed": 20261027,
+  "candidate_count": 32462,
+  "contrasts": {
+    "KL": {
+      "mean_N0_minus_joint": -0.0014142962669225767,
+      "CI95": [
+        -0.002962350092972796,
+        -0.000317611206509348
+      ]
+    },
+    "NLL": {
+      "mean_N0_minus_joint": -0.001054745560715123,
+      "CI95": [
+        -0.0021563012012135933,
+        -0.00029750497448368247
+      ]
+    },
+    "CRPS": {
+      "mean_N0_minus_joint": -0.008315407714828915,
+      "CI95": [
+        -0.017552608157473885,
+        -0.0021752136704580715
+      ]
+    }
+  },
+  "max_adaptive_log_relative_omission_bound": -106.07575994595676,
+  "limitations": [
+    "Post hoc development diagnostic, not preregistered independent test.",
+    "Local constant 5x5 and empirical finite prior are modelling restrictions.",
+    "N0 has larger multiscale context; four-color access alone is not complete matching.",
+    "No causal attribution or claim of best classical estimator."
+  ]
+}

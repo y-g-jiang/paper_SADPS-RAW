@@ -1,0 +1,11 @@
+{
+  "evidence_id": "independent_main",
+  "evidence_class": "independent-pre-registered",
+  "source_split": "test",
+  "sources": 138,
+  "cases": 552,
+  "data_file": "INDEPENDENT_TEST_RESULT_UNCHANGED.json",
+  "sha256": "29a98399d0ba7a4e11661afebba92914f383e1bd39006d9c3a71c331bf40d14a",
+  "modification": "none; metadata wrapper separate from original result",
+  "new_test_inference": false
+}

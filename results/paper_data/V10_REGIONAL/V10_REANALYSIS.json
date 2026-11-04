@@ -1,0 +1,321 @@
+{
+  "kind": "frozen-data descriptive reanalysis; no training or new test inference",
+  "source_files": {
+    "PROVENANCE_AND_REPRO/V2_RESEARCH/redraw_data/dev_per_position.csv": "58ec10f35a5783671370a21584cc2ac634fd4e58a64d0a77595bd13e172be790",
+    "PAPER_CURRENT/data/INDEPENDENT_TEST_RESULT_UNCHANGED.json": "29a98399d0ba7a4e11661afebba92914f383e1bd39006d9c3a71c331bf40d14a"
+  },
+  "development_sources": 32,
+  "development_positions": 32462,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 20261029,
+  "unmatched_interactions_20000": {
+    "KL": {
+      "n_sources": 32,
+      "mean": -0.0010663383388369138,
+      "median": -0.0001023237936146226,
+      "CI95": [
+        -0.0021739012288194454,
+        -0.00027164300843247424
+      ],
+      "median_CI95": [
+        -0.0003458881900566837,
+        -2.482029045399958e-05
+      ],
+      "negative_sources": 23,
+      "one_sided_sign_p": 0.010030803503468633,
+      "top_two_net_share": 0.6567359719335545,
+      "mean_without_two_most_negative": -0.0003904379663688976
+    },
+    "NLL": {
+      "n_sources": 32,
+      "mean": -0.0008073991376596107,
+      "median": 0.0003858059741019477,
+      "CI95": [
+        -0.0032490307467783557,
+        0.0012174944957967114
+      ],
+      "median_CI95": [
+        -0.0015836842281349679,
+        0.0014865761190809824
+      ],
+      "negative_sources": 12,
+      "one_sided_sign_p": 0.9449079174082726,
+      "top_two_net_share": 1.5176170605164905,
+      "mean_without_two_most_negative": 0.00044578513951884426
+    }
+  },
+  "original_unmatched_intervals_10000": {
+    "scope": "post-hoc paired high-minus-low gradient contrast on the existing 32-source development set",
+    "n_sources": 32,
+    "n_positions": 32462,
+    "bootstrap_reps": 10000,
+    "bootstrap_seed": 20261029,
+    "joint_resampling_indices_for_both_metrics": true,
+    "mean_within_source_bin": "candidate mean across included CFA positions",
+    "KL": {
+      "mean": -0.0010663383388369138,
+      "CI95": [
+        -0.0021772926720290313,
+        -0.0002710901594608547
+      ]
+    },
+    "NLL": {
+      "mean": -0.0008073991376596107,
+      "CI95": [
+        -0.0032309008583846373,
+        0.001221025993736344
+      ]
+    },
+    "source_sha256": "58ec10f35a5783671370a21584cc2ac634fd4e58a64d0a77595bd13e172be790"
+  },
+  "signal_matched_sensitivity": [
+    {
+      "match_CFA": false,
+      "min_candidates_per_gradient": 1,
+      "n_cells": 142,
+      "support_weight_per_group": 3049.0,
+      "matched_effective_candidates": 6098,
+      "KL": {
+        "n_sources": 32,
+        "mean": -0.001042948546060779,
+        "median": -7.465769197128629e-05,
+        "CI95": [
+          -0.002136808438666882,
+          -0.00029008487568726816
+        ],
+        "median_CI95": [
+          -0.0003217748910534808,
+          -7.700917283207664e-06
+        ],
+        "negative_sources": 22,
+        "one_sided_sign_p": 0.025051229866221547,
+        "top_two_net_share": 0.6036770188383269,
+        "mean_without_two_most_negative": -0.00044090077543790983
+      },
+      "NLL": {
+        "n_sources": 32,
+        "mean": -0.0015981555278622062,
+        "median": 0.00012527677089621761,
+        "CI95": [
+          -0.004626070548778514,
+          0.0008907053282029567
+        ],
+        "median_CI95": [
+          -0.0016576585273371577,
+          0.0016250992453008027
+        ],
+        "negative_sources": 16,
+        "one_sided_sign_p": 0.5699749670457095,
+        "top_two_net_share": 1.0128887582569301,
+        "mean_without_two_most_negative": 2.197145627263197e-05
+      }
+    },
+    {
+      "match_CFA": false,
+      "min_candidates_per_gradient": 5,
+      "n_cells": 98,
+      "support_weight_per_group": 2957.0,
+      "matched_effective_candidates": 5914,
+      "KL": {
+        "n_sources": 31,
+        "mean": -0.0008817870351887646,
+        "median": -7.45734522124255e-05,
+        "CI95": [
+          -0.001959832422202919,
+          -0.0001836596546948652
+        ],
+        "median_CI95": [
+          -0.00030814130218437415,
+          8.605326074621114e-06
+        ],
+        "negative_sources": 20,
+        "one_sided_sign_p": 0.07480639219284058,
+        "top_two_net_share": 0.6779209327012575,
+        "mean_without_two_most_negative": -0.00030359170763246004
+      },
+      "NLL": {
+        "n_sources": 31,
+        "mean": -0.0006183121491287109,
+        "median": 0.000502616963555515,
+        "CI95": [
+          -0.0026029892472967564,
+          0.001287137560665908
+        ],
+        "median_CI95": [
+          -0.0016617185705889398,
+          0.0016884952037067944
+        ],
+        "negative_sources": 14,
+        "one_sided_sign_p": 0.7634351700544357,
+        "top_two_net_share": 1.471433298398493,
+        "mean_without_two_most_negative": 0.0003115958970004094
+      }
+    },
+    {
+      "match_CFA": false,
+      "min_candidates_per_gradient": 10,
+      "n_cells": 66,
+      "support_weight_per_group": 2741.0,
+      "matched_effective_candidates": 5482,
+      "KL": {
+        "n_sources": 26,
+        "mean": -0.00035411809600370596,
+        "median": -6.229780641900937e-05,
+        "CI95": [
+          -0.0007489836535616516,
+          -6.620506037666795e-05
+        ],
+        "median_CI95": [
+          -0.00025150557565661375,
+          8.605326074621114e-06
+        ],
+        "negative_sources": 17,
+        "one_sided_sign_p": 0.08431877195835114,
+        "top_two_net_share": 0.6630541809748925,
+        "mean_without_two_most_negative": -0.00012926182954704535
+      },
+      "NLL": {
+        "n_sources": 26,
+        "mean": 3.004857696259509e-05,
+        "median": 0.0003009059610053475,
+        "CI95": [
+          -0.0023659857891495354,
+          0.0023400686354632656
+        ],
+        "median_CI95": [
+          -0.0012411400095565805,
+          0.0019879612962980173
+        ],
+        "negative_sources": 12,
+        "one_sided_sign_p": 0.7214014530181885,
+        "top_two_net_share": -33.87277405669508,
+        "mean_without_two_most_negative": 0.001135200338070274
+      }
+    },
+    {
+      "match_CFA": true,
+      "min_candidates_per_gradient": 1,
+      "n_cells": 367,
+      "support_weight_per_group": 2539.0,
+      "matched_effective_candidates": 5078,
+      "KL": {
+        "n_sources": 32,
+        "mean": -0.0009213341560045371,
+        "median": -4.851294965101437e-05,
+        "CI95": [
+          -0.0018975098164870756,
+          -0.00024674157734057165
+        ],
+        "median_CI95": [
+          -0.00023595493995788396,
+          -2.8971414583971843e-05
+        ],
+        "negative_sources": 23,
+        "one_sided_sign_p": 0.010030803503468633,
+        "top_two_net_share": 0.6128454302426217,
+        "mean_without_two_most_negative": -0.0003804786440220945
+      },
+      "NLL": {
+        "n_sources": 32,
+        "mean": -0.00211898740906666,
+        "median": 0.0001796460899140563,
+        "CI95": [
+          -0.0059061152774910345,
+          0.0008160195792268995
+        ],
+        "median_CI95": [
+          -0.0022800214143060336,
+          0.0017317963521654223
+        ],
+        "negative_sources": 15,
+        "one_sided_sign_p": 0.7016925520729274,
+        "top_two_net_share": 0.9368499945219274,
+        "mean_without_two_most_negative": -0.0001427350042565614
+      }
+    },
+    {
+      "match_CFA": true,
+      "min_candidates_per_gradient": 5,
+      "n_cells": 142,
+      "support_weight_per_group": 2084.0,
+      "matched_effective_candidates": 4168,
+      "KL": {
+        "n_sources": 27,
+        "mean": -0.00026753932525584045,
+        "median": -3.581888943826875e-05,
+        "CI95": [
+          -0.000581425220188349,
+          -2.802071986166724e-05
+        ],
+        "median_CI95": [
+          -0.00014978355019746526,
+          2.2594760915129097e-05
+        ],
+        "negative_sources": 18,
+        "one_sided_sign_p": 0.06103906035423279,
+        "top_two_net_share": 0.6845910378166576,
+        "mean_without_two_most_negative": -9.113504499595042e-05
+      },
+      "NLL": {
+        "n_sources": 27,
+        "mean": 0.00012249585388519007,
+        "median": 0.0004896264551782799,
+        "CI95": [
+          -0.00204924514241325,
+          0.0020857875738620065
+        ],
+        "median_CI95": [
+          -0.0010887520827519447,
+          0.0023143866145674766
+        ],
+        "negative_sources": 13,
+        "one_sided_sign_p": 0.6494459807872772,
+        "top_two_net_share": -8.026688425310274,
+        "mean_without_two_most_negative": 0.001194190458927059
+      }
+    },
+    {
+      "match_CFA": true,
+      "min_candidates_per_gradient": 10,
+      "n_cells": 83,
+      "support_weight_per_group": 1695.0,
+      "matched_effective_candidates": 3390,
+      "KL": {
+        "n_sources": 23,
+        "mean": -0.0004086716524469714,
+        "median": -3.913866613452244e-05,
+        "CI95": [
+          -0.0009385093891103519,
+          -4.5949878602946856e-05
+        ],
+        "median_CI95": [
+          -9.679177181032705e-05,
+          -5.966451331629112e-06
+        ],
+        "negative_sources": 16,
+        "one_sided_sign_p": 0.04656982421875,
+        "top_two_net_share": 0.7535486424682452,
+        "mean_without_two_most_negative": -0.0001103098438665207
+      },
+      "NLL": {
+        "n_sources": 23,
+        "mean": -0.0010045942871873958,
+        "median": 0.000441408906018959,
+        "CI95": [
+          -0.0039157124380907226,
+          0.0017605829045329409
+        ],
+        "median_CI95": [
+          -0.0017846074742199295,
+          0.0023143866145674766
+        ],
+        "negative_sources": 11,
+        "one_sided_sign_p": 0.6611802577972412,
+        "top_two_net_share": 1.3097003524141206,
+        "mean_without_two_most_negative": 0.00034075398618230597
+      }
+    }
+  ],
+  "heldout_absolute_region_scores_available": false,
+  "explanation": "Held-out regional input contains paired differences and intervals, not method-level regional sums. Absolute curves use development data and are labeled accordingly."
+}

@@ -1,0 +1,7 @@
+% Build script resolves installed standalone Chinese font files.
+% The generated file contains local font paths only; no font binaries are distributed.
+\InputIfFileExists{../font_local_zh.tex}{}{%
+  \setCJKmainfont[BoldFont=FandolSong-Bold.otf,ItalicFont=FandolKai-Regular.otf,SmallCapsFont=FandolSong-Regular.otf]{FandolSong-Regular.otf}
+  \setCJKsansfont[BoldFont=FandolHei-Bold.otf]{FandolHei-Regular.otf}
+  \setCJKmonofont{FandolFang-Regular.otf}
+}

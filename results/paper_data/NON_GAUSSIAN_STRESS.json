@@ -1,0 +1,52 @@
+{
+  "status": "N0_ONLY_DEV_STRESS_COMPLETE",
+  "source_split": "first 4 previously exported dev sources, new synthetic stress noise",
+  "experiment_registered_before_readout": false,
+  "source_file_sha": {
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\00\\scene_arrays.npz": "8a0265f79cd697e7dac9125a1ff52e9d5c7a959d37b72a8bdb7003ce2158a7a3",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\01\\scene_arrays.npz": "45da706097e49e6d36e64189cf0f78531d197aff2313889f562ae9af7bf18479",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\02\\scene_arrays.npz": "8935874157316cf366504ce69ac5683e339725e7a2c31a0dd633974ca627eced",
+    "E:\\Workspaces\\single_frame_signed_raw_completion_20261025\\outputs\\SPACE_V2_ISO12800_JOT_LOCKED\\TCI_CLOSURE_ISO12800_V1\\redraw_data\\dev\\03\\scene_arrays.npz": "68ac256f360b1f14bf2508603008e4076bd0d5b74f70bcb3165f9513e1ce9b50"
+  },
+  "checkpoint_sha": "662eef3e581eb77d1e948ee800d6e63c0ab0039c3b4cff8f9fafe8a99074894f",
+  "method_id": "N0 frozen exact PG decoder",
+  "metric_definition": "CFA then source equal mean; tail counts aggregated over selected positions",
+  "bootstrap_unit": "source",
+  "seed": 20261027,
+  "conditions": [
+    {
+      "condition": "matched_PG",
+      "n": 2048,
+      "observed_le_minus128": 0,
+      "predicted_le_minus128": 0.0006008488923461672,
+      "selected_injected": 0,
+      "NLL": 3.9280477822642625,
+      "CRPS": 8.108501458479799
+    },
+    {
+      "condition": "row_column_5DN",
+      "n": 2048,
+      "observed_le_minus128": 0,
+      "predicted_le_minus128": 0.0006004635740558505,
+      "selected_injected": 0,
+      "NLL": 3.9761277190595012,
+      "CRPS": 8.50234607013022
+    },
+    {
+      "condition": "rare_minus150_1pct",
+      "n": 2048,
+      "observed_le_minus128": 30,
+      "predicted_le_minus128": 0.0006030948034902467,
+      "selected_injected": 46,
+      "NLL": 4.275568433549729,
+      "CRPS": 10.386070589762017
+    }
+  ],
+  "limitations": [
+    "Artificial perturbations are not a measured sensor model.",
+    "N0 only; no competitor measurements.",
+    "Candidate sets vary by condition; no paired or independent test claim.",
+    "Four dev sources only; no scene-population CI.",
+    "No PG oracle KL for the stress conditions."
+  ]
+}

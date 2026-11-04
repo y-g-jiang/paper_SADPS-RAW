@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "comparisons": 152,
+  "mean_KL": 1.2302614816773882e-08,
+  "max_KL": 2.1782526877647944e-07,
+  "max_abs_logq": 1.2965809403908679e-05,
+  "mean_abs_logq": 1.0475120210378903e-06,
+  "max_mass_error": 7.771561172376096e-16,
+  "densification_max_teacher_weighted_abs_logq": 2.596359861826182e-07,
+  "max_log_tail": -77.05103649378417,
+  "support": "coarsened 0..-304 plus genuine tail; never an atom",
+  "dx": 0.002,
+  "db": 0.01,
+  "table_sha256": "d624318f433c6ac0f1e830e3610357b4f6a9616739d417fb11bc6f090561461c",
+  "outside_policy": "exact FP64 PG with autograd"
+}

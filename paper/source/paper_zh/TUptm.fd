@@ -1,0 +1,11 @@
+\ProvidesFile{TUptm.fd}[2026/10/30 System-installed Times-compatible family]
+\DeclareFontFamily{TU}{ptm}{}
+\DeclareFontShape{TU}{ptm}{m}{n}{<-> "TeXGyreTermes-Regular:mapping=tex-text;"}{}
+\DeclareFontShape{TU}{ptm}{m}{it}{<-> "TeXGyreTermes-Italic:mapping=tex-text;"}{}
+\DeclareFontShape{TU}{ptm}{m}{sl}{<-> ssub * ptm/m/it}{}
+\DeclareFontShape{TU}{ptm}{m}{sc}{<-> "TeXGyreTermes-Regular:mapping=tex-text;+smcp;"}{}
+\DeclareFontShape{TU}{ptm}{b}{n}{<-> "TeXGyreTermes-Bold:mapping=tex-text;"}{}
+\DeclareFontShape{TU}{ptm}{b}{it}{<-> "TeXGyreTermes-BoldItalic:mapping=tex-text;"}{}
+\DeclareFontShape{TU}{ptm}{bx}{n}{<-> ssub * ptm/b/n}{}
+\DeclareFontShape{TU}{ptm}{bx}{it}{<-> ssub * ptm/b/it}{}
+\endinput

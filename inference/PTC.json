@@ -1,0 +1,23 @@
+{
+  "camera": "Panasonic DC-S5M2 / S5 II",
+  "iso": 12800,
+  "shutter": "mechanical",
+  "bit_depth": 14,
+  "gain_dn_per_e": 21.601092412099675,
+  "analog_read_noise_dn_rms": 24.95960511926749,
+  "ptc_read_noise_total_dn_rms": 24.961274427462577,
+  "quantization_delta_dn": 1,
+  "black_level_nominal_dn": 512,
+  "signed_positive_upper": 15871,
+  "pg_negative_K": 304,
+  "known_residual_b_range_dn": [
+    -0.25,
+    0.25
+  ],
+  "ADC_order": "Z=G*Poisson(lambda)+Gaussian(0,analogRN)+b; raw_integer=floor(512+Z+.5); V=raw_integer-512; Y=max(V,0)",
+  "read_noise_source": "User override: local ten ISO12800 darks, R+G1 only; pooled centered temporal pair variance /2",
+  "read_noise_channels": [
+    "R",
+    "G1"
+  ]
+}

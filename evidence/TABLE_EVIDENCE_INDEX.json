@@ -1,0 +1,110 @@
+[
+  {
+    "table_label": "tab:protocol",
+    "sources": [
+      "results/paper_data/INDEPENDENT_TEST_RESULT_UNCHANGED.json",
+      "inference/PTC.json"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:holdout",
+    "sources": [
+      "results/paper_data/INDEPENDENT_TEST_RESULT_UNCHANGED.json",
+      "results/paper_data/independent_test_per_mother_metrics.csv"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:real",
+    "sources": [
+      "evidence/table_support/real_ahd/RESULT.json",
+      "results/paper_data/real_per_position.csv",
+      "inference/minimal_source/pg_quantized.py"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:cleanendpoint",
+    "sources": [
+      "evidence/clean_color/AGGREGATE.csv",
+      "evidence/clean_color/PER_SOURCE.csv",
+      "evidence/clean_color/PAIRED_CONTRASTS.csv"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:architecture",
+    "sources": [
+      "inference/minimal_source/network.py"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:coverage",
+    "sources": [
+      "evidence/table_support/calibration/coverage.json",
+      "evidence/table_support/calibration/coverage_dev.csv"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:adverse",
+    "sources": [
+      "evidence/table_support/attribution/ADVERSE_OR_UNCERTAIN_BINS.csv"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:real_robust",
+    "sources": [
+      "results/paper_data/real_per_position.csv",
+      "results/paper_data/EXTREME_CODES_SUMMARY.json"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:tail_original",
+    "sources": [
+      "evidence/table_support/real_ahd/PROBABILITY_RELIABILITY.json"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:ahd",
+    "sources": [
+      "evidence/table_support/redraw_data/original_statistics/AHD_ROI_MULTI_DRAW.json",
+      "evidence/table_support/redraw_data/original_statistics/AHD_D_LOCALPG_RESULT.json"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:joint",
+    "sources": [
+      "results/paper_data/development_point_CI.csv",
+      "results/paper_data/fairness_sources_labeled.csv"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:runtime",
+    "sources": [
+      "results/paper_data/runtime_table.csv"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:primary",
+    "sources": [
+      "results/paper_data/INDEPENDENT_TEST_RESULT_UNCHANGED.json"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  },
+  {
+    "table_label": "tab:trajectory",
+    "sources": [
+      "results/paper_data/CHECKPOINT_SERIES.csv"
+    ],
+    "scope": "cached-data/source inspection; no new model inference in V13"
+  }
+]
